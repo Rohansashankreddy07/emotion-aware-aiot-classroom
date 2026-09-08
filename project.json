@@ -1,0 +1,28 @@
+{
+  "id": "emotion-aware-aiot",
+  "name": "Emotion-Aware AIoT",
+  "subtitle": "Edge-AI classroom intelligence",
+  "category": "Software & AI",
+  "status": "Implementation in progress",
+  "icon": "classroom",
+  "summary": "A Raspberry Pi classroom system combining attendance, experimental facial-expression analysis, video streaming, and a web dashboard.",
+  "overview": "The Emotion-Aware IoT Classroom Attendance System connects a camera and edge computer-vision pipeline to a FastAPI backend, SQLite storage, and a monitoring dashboard. It uses LBPH for face recognition and FER+ through ONNX Runtime for experimental facial-expression estimation.",
+  "current_state": "The handoff reports an integrated backend, video streaming, recognition, expression inference, and dashboard, with Raspberry Pi deployment work underway. The owner reports that the system works partially; accuracy, tracking, and performance still need improvement.",
+  "highlights": [
+    "Python, FastAPI, OpenCV, MediaPipe, ONNX Runtime, and SQLite.",
+    "Raspberry Pi 5 and a USB camera, with MJPEG video streaming.",
+    "Ongoing work on multi-person tracking, recognition accuracy, and temporal analysis."
+  ],
+  "next_focus": "Benchmark the existing implementation under realistic classroom conditions. Attendance, facial expression, and engagement are different signals; expression predictions do not establish a student’s internal emotional state.",
+  "tags": [
+    "Raspberry Pi 5",
+    "FastAPI",
+    "Computer vision"
+  ],
+  "repository_slug": "emotion-aware-aiot-classroom",
+  "repository_url": "https://github.com/Rohansashankreddy07/emotion-aware-aiot-classroom",
+  "sources": [
+    "Pasted text (2).txt — Classroom handoff",
+    "Earlier classroom source and partial-functionality update"
+  ]
+}
